@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.047" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2016-05-11T09:36:33" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Init-Test" timestamp="2016-05-11T09:36:33" tests="2" failures="0" time="0.031">
+    <testcase name="Root Suite Init-Test Home-Page should be reachable" time="0.023" classname="Home-Page should be reachable">
+    </testcase>
+    <testcase name="Root Suite Init-Test Response should be Express" time="0.008" classname="Response should be Express">
+    </testcase>
+  </testsuite>
+  <testsuite name="Login-API" timestamp="2016-05-11T09:36:33" tests="2" failures="0" time="0.016">
+    <testcase name="Root Suite Login-API User should able to login" time="0.01" classname="User should able to login">
+    </testcase>
+    <testcase name="Root Suite Login-API Get Menu details of logged-in user" time="0.006" classname="Get Menu details of logged-in user">
+    </testcase>
+  </testsuite>
+</testsuites>
