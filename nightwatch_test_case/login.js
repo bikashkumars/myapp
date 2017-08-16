@@ -1,13 +1,13 @@
 module.exports = {
-  'CTL-Portal Testing Login & Dashboard Page' : function (browser) {
+  'Ericsson Search Test' : function (browser) {
     browser
-      .url('http://localhost/dist/#/login')
+      .url('https://www.ericsson.com/en')
       .pause(2000)
       .waitForElementVisible('body', 1000)
-      .setValue('input[name=username]', "ctl\\ctladmin")
-      .setValue('input[name=password]', 'ctladmin')
+      .click('#glass')
+      .setValue('input[name=search]', "EGI")
       .pause(1000)
-      .click('#Loginbtn')
+      .click('input[type=submit]')
       .pause(1000)
       .end();
   }
