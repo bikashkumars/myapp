@@ -5,7 +5,7 @@ module.exports = {
       .pause(2000)
       .waitForElementVisible('body', 1000)
       .click('#glass')
-      .setValue('input[name=search]', "EGI")
+      .setValue('input[type=search]', "EGI")
       .pause(1000)
       .click('input[type=submit]')
       .pause(1000)
